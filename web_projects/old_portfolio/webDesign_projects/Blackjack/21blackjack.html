@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>21 Blackjack de dés</title>
+<link href="blackjack.css" rel="stylesheet" media="screen" />
+
+<script src="leJoueBlackjack.js">
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-18366065-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body onload="valeurInitial()">
+<div id="principal">
+  <form name="frmJoueur">
+    <div id="colGauche">
+      <div class="logo21"> <img src="21_200pixels2.jpg" alt="21 Blackjack" title="21 Blackjack" width="200" height="183" /> </div>
+      <div id="paneau_joueur">
+        <h1>Votre compte: </h1>
+        <input type="text" id="txtSommeJouer" name="sommeInitialeDesJoueur" value="0" size="1" readonly="readonly" />
+        <h2>Cliquez au buttom "Lancer" ci-dessous pour commencer à jouer</h2>
+        <div id="buttoms">
+          <input class="buttonImgVert" type="button" id="btnLancerInitiale" name="buttomLancerDes" value="Lancer" title="Cliquer pour lancer les dés" onclick="lancerInitiale();" />
+          <input class="buttonImgJaune" type="button" id="btnRelancer" name="buttomRelancer" value="Relancer" title="Cliquer pour relancer les dés" onclick="relancerDes();" />
+          <input class="buttonImgRouge" type="button" id="btnArreter" name="buttomArreter" value="Arrêter" onclick="arreter();"/>
+        </div>
+        <br/>
+        <hr />
+        <div id="deuxiemeButtoms">
+          <h2>Est-ce que vous voudriez ajouter la valeur du:</h2>
+          <input class="buttonImgBleu" type="button" id="btnAjouterValeurDes1" name="buttomAjouterValeurDes1" value="1er Dé" onclick="ajouterValeurDes1();"/>
+          <input class="buttonImgBleu" type="button" id="btnAjouterValeurDes2" name="buttomAjouterValeurDes2" value="2e Dé" onclick="ajouterValeurDes2();"/>
+          <input class="buttonImgBleu" type="button" id="btnAjouterLaSomme" name="buttomAjouterLaSomme" value="Les Deux" onclick="ajouterLaSomme();"/>
+        </div>
+      </div>
+    </div>
+  </form>
+  <form name="frmCroupier">
+    <div id="colDroite">
+      <div class="logo21"> <img id="imgGagnePerdu" src="21_200pixels2.jpg" alt="21 Blackjack" title="21 Blackjack" width="200" height="183" /> </div>
+      <div id="paneau_croupier">
+        <h1>Compte du croupier: </h1>
+        <input type="text" id="txtSommeCroupier" value="0" size="1" readonly="readonly" />
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <hr />
+        <br/>
+        <div id="redemarrer"><input type='button' class='buttonImgJaune' name='buttonReload' id='btnReload' value='Redémarrer' onclick='window.location.href = "21blackjack.html";' /></div>
+        <br />
+        <br />
+        <br />
+        <p>&copy; Farinelli Web Factory<br />
+          2010</p>
+      </div>
+    </div>
+  </form>
+<div id="centrevide">&nbsp;</div> 
+  <div id="Des">
+    <div id="desJouer">
+      <div id="emplacement2">
+        <div id="imagesPremiersDes"> <img id="d1" alt="dé numéro 1" src="des2.png" width="50" height="50" /> <img id="d2" alt="dé numéro 2" src="des1.png" width="50" height="50" /> </div>
+      </div>
+      <div id="emplacement1">
+        <div id="imagesDeuxiemeDes"> <img id="d3" alt="dé numéro 3" src="des1.png" width="50" height="50" /> <img id="d4" alt="dé numéro 4" src="des2.png" width="50" height="50" /> </div>
+      </div>
+    </div>
+    <!-- <div id="milieuDesDes"></div> -->
+    <div id="desCroupier">
+      <div id="emplacement4">
+        <div id="imagesDesCroupier"> <img id="dc1" alt="dé numéro 1" src="des2.png" width="50" height="50" /> <img id="dc2" alt="dé numéro 2" src="des1.png" width="50" height="50" /> </div>
+      </div>
+      <div id="emplacement3">
+        <div id="imagesDesCroupier2"> <img id="dc3" alt="dé numéro 1" src="des2.png" width="50" height="50" /> <img id="dc4" alt="dé numéro 2" src="des1.png" width="50" height="50" /> </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

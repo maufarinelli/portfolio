@@ -1,0 +1,152 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* -------- Les régles de style géenerales --------- */
+* {margin:0; padding:0; }
+body {margin:0; padding:0; font-size:100%; font-family:Verdana, Geneva, sans-serif; background-image:url(../imgs/bg_landscape.png); min-width:1000px;}
+h2 {font-size:1em; margin:10px 20px; text-align:left; color:#666; }
+h3 {font-size:0.9em; margin:10px 20px; text-align:left; color:#666; }
+img {margin:0; padding:0; border:0;}
+span {color:#F00; font-weight:bold; font-size:1em;}
+p {font-size:0.8em; background:none; margin-bottom:10px;}
+li {list-style:none;}
+
+/* --------- Les règles pour la div principale. Elle fait que le site couvre toujours 98%, n'importe quoi soit la résolution d'écran utilisée. La position relative sert pour mettre tous les divs qu'elle contient en position absolute. */
+#principal {width:98%; height:auto; margin:0 auto; position:relative; }	
+
+/* --------- Les règles pour la division entête, qui contient les divs logo, personalise, help, header recherche. Elle a une largeur de 100% pour être élastique, c'est-à-dire, n'importe quoi soit la résolution d'écran utilisée, cette div va être 100% en entête de la page.  */
+#header { width:100%; height:80px; -moz-border-radius:10px; -webkit-border-radius:10px; position:relative; background-color:#FFF; margin-top:2px;}
+
+/* --------- Les règles pour la div que contient le logo. Elle a une taille fixe pour ne pas bouger par rapport à différentes résolutions d'écrans. */
+#logo {width:150px; height:80px;}
+#logo img {border:0; margin-left:10px; margin-top:5px;}
+
+/* --------- Les règles pour la div que j'ai appelé personalise, car si on devait créer un vrai site web entier, je voudrais faire des pages comme Amazon, que vous pouvez personaliser le contenue, ou ouvrir une session, ou voir vos listes de cadeau, etc.  */
+#personalise {width:55%; height:45px; padding-left:20px; position:absolute; left:152px; top:0px;}
+#personalise a {font-size:0.8em; font-weight:bold; color:#666; text-decoration:none; }
+#personalise a:hover {text-decoration:underline;}
+
+/* --------- Les règles pour la div que j'ai appelé help, qui contient des liens vers des pages qui aident le client s'il a quelque doute. */
+/* --------- Les divisions personalise et help sont toujours positionnées à gauche et à droite respectivement. C'est ça pourquoi je ne les ai pas mis dans les mêmes div. */
+#help {width:25%; height:45px; padding-right:20px; position:absolute; right:0px; top:0px;}
+#help p {text-align:right; margin-top:3px;}
+#help a {font-size:1em; font-weight:bold; color:#666; text-decoration:none;}
+#help a:hover {text-decoration:underline;}
+
+/* --------- Les règles pour la div qui contient la barre de recherche, le select avec toutes les catégories pour une recherche avancée. Elle a une largeur fixe. */
+#header_recherche {width:65%; margin-right:2px; height:30px; -moz-border-radius:10px; position:absolute; left:151px; bottom:0px; margin-left:20px; background-color:#ffa200;}
+
+#recherche {float:left; width:195px;}
+#recherche label {font-size:0.8em; font-weight:bold; padding:5px 0 5px 10px; }
+#recherche select {font-size:0.8em; margin-top:5px; margin-left:10px;}
+#recherche option {display:block; padding:0 5px;}
+
+#barre_recherche input.txt {width:55%; float:left; margin-top:5px; margin-left:10px; display:block;}
+
+#recherche_btn {width:7%; float:left; margin-top:5px; margin-left:10px;}
+#recherche_btn input.btn {background:#FC0; border:0; -moz-border-radius:5px; padding:1px;}
+
+#panier {width:15%; height:40px; padding-right:20px; position:absolute; right:0px; bottom:0px; border:1px solid #ccc; -moz-border-radius:5px;}
+#panier p{text-align:right; margin-top:1px; margin-bottom:1px; }
+#panier form {float:right; margin-top:3px; margin-left:10px; }
+#valeurItem {color:blue; font-weight:bold; font-size:0.8em; height:12px;}
+#quantiteItem {float:right; color:blue; font-weight:bold; font-size:1em; margin-top:5px;}
+
+/* --------- Les règles pour la div du centre, qui contient TOUT le contenue Commercial (les produits, leurs descriptions, leurs prix, le video, etc) et la Menu Gauche */
+#center {position:relative; width:100%; min-height:827px; margin-top:5px;}
+
+/* --------- Les règles pour le menu à gauche */
+#menu_gauche {width:160px; min-height:400px; -moz-border-radius:10px; -webkit-border-radius:10px; position:absolute; left:0; top:0; margin-bottom:10px; background-color:#FFF; z-index:2;}
+#menu_gauche h1 {font-size:1em; margin:10px; text-align:center; border-bottom:#CCC 1px solid; padding-bottom:2px; width:130px; }
+#menu_gauche li {list-style:none; line-height:20px; }
+#menu_gauche li a {display:block; width:145px; color:#000; padding: 0 0 3px 10px; font-size:0.75em; text-decoration:none;}
+#menu_gauche li a:hover {background-color:#ffa200; text-decoration:underline; -moz-border-radius:10px; -webkit-border-radius:10px;}
+#menu_gauche li ul {display:none; position:absolute; left:155px; top:35px; padding: 7px; width:90px; background:#FFF; -moz-border-radius:10px; -webkit-border-radius:10px;}
+#menu_gauche li ul li a {width:80px;}
+#menu_gauche li:hover > ul {display:block;}
+
+/*--------- Les règles pour la div qui contient le produit vedette du jour. Elle a une largeur de 100% pour être élastique, c'est-à-dire, n'importe quoi soit la résolution d'écran utilisée, cette div va s'ajuster et va être 100% en haut de la div centrale.   */ 
+#produits_vedettes { width:100%; height:300px; margin-top:0; -moz-border-radius:10px; -webkit-border-radius:10px; position:absolute; left:0px; top:0px; z-index:1; }
+
+/*--------- Les règles pour la div contenue dans la div #produits_vedettes, qui contient la grande image du produit vedette.*/
+#contenu_produit_vedette {background:#FFF; position:absolute; left:17%; top:0px; -moz-border-radius:10px; -webkit-border-radius:10px; width:60%;}
+#contenu_produit_vedette img {border:0;}
+#contenu_produit_vedette h2 {width:600px;}
+#contenu_produit_vedette a {text-decoration:none; color:#666;}
+
+/*--------- Les règles pour la div contenue dans la div #produits_vedettes, qui contient les petites images secondaires du produit vedette */
+#thunbs_vedette { width:37px; height:250px; float:left;}
+#thunbs_vedette img { border:#CCC 1px solid;}
+#thunbs_vedette li {list-style:none;}
+#thunbs_vedette li ul {position:absolute; visibility:hidden;}
+#thunbs_vedette li ul img {border:0;}
+#thunbs_vedette li:hover > ul {position:absolute; left:0px; top:40px; visibility:visible;}
+
+/*--------- Les règles pour la div contenue dans la div #produits_vedettes, qui contient les caractéristiques du produit vedette. */
+#contenu_produit_vedette2 { float:left; margin-left:10px;}
+#contenu_produit_vedette2 img { width:169px; height:165px; }
+
+/*--------- Les règles pour la div contenue dans la div #produits_vedettes, qui contient les boutons acheter et savoir plus, à côté du produit vedette*/
+#contenu_produit_vedette3 {width:150px; padding-left:20px; float:left;}
+#contenu_produit_vedette3 ul li {display:inline; font-size:0.8em;}
+.boutons input {font-size:0.9em; background-color:#ffa200; color:#FFF; -moz-border-radius:10px; -webkit-border-radius:10px; cursor:pointer; margin-bottom:10px; margin-top:5px;}
+
+/*--------- Les règles pour la div contenue dans la div #produits_vedettes, qui contient le vidéo du produit vedette */
+#contenu_produit_vedette4 {position:absolute; left:75%; top:0px; background:#FFF; -moz-border-radius:10px; -webkit-border-radius:10px; padding-top:10px; padding-right:30px}
+#contenu_produit_vedette4 object {width:100%; height:75%; }
+#contenu_produit_vedette4 embed {width:100%; height:75%;}
+
+/*--------- Les règles pour la div qui contient les 3 autres produits au milieu de la page. Elle a une largeur de 100% pour être élastique comme toutes les autres div qui doivent s'ajuster. N'importe quoi soit la résolution d'écran utilisée, cette div va être 100% en bas de la div qui contient le produit vedette. */
+#autres_produits {width:100%; height:220px; margin-top:305px; border-bottom:none; -moz-border-radius:10px; -webkit-border-radius:10px; position:absolute; left:0; top:0;}
+
+/*--------- Les règles pour la div qui contient le titre -Trouvez tous les accessoires pour votre appareil photo :- */
+#titre_bas {width:100%; height:200px; margin-top:530px; border-bottom:none; -moz-border-radius:10px; -webkit-border-radius:10px; position:absolute; left:0; top:0;}
+#titre_bas h3 {margin-left:150px; padding-left:130px; background-image:url(../imgs/bg_h2.png); background-repeat:repeat-x;}
+
+/*--------- Les règles pour la div qui contient les catégories en bas des 3 autres produits On Sales*/
+#bas_produits {width:100%; height:220px; margin-top:570px; border:0; -moz-border-radius:10px; -webkit-border-radius:10px; position:absolute; left:0; top:0; }
+
+/*--------- Les règles pour les classes qui contiennent les divs avec des produits ou les catégories en bas du produit vedette. Les divs ont toujours largeur et hauteur fixes en pixels et des positions absolutes réglées avec des pourcentages à gauche. Elles vont toujours s'ajuster par rapport à la résolution d'écran utilisée, mais ne vont pas changer de taille.*/
+.col_produits1 {width:250px; height:220px; position:absolute; left:17%; top:0px; background-color:#FFF; -moz-border-radius:10px; -webkit-border-radius:10px;}
+.col_produits1 img {margin-left:75px;}
+.col_produits1 h2 {text-align:center; margin:5px 0 0 0; }
+.col_produits1 li {list-style:none; padding-bottom:3px;}
+.col_produits1 li a {display:block; color:#000; text-align:center; font-size:0.75em; text-decoration:underline;}
+.col_produits1 li a:hover {text-decoration:underline; color:#ffa200;}
+
+.col_produits2 {width:250px; height:220px; position:absolute; left:45%; top:0px; background-color:#FFF; -moz-border-radius:10px; -webkit-border-radius:10px;}
+.col_produits2 img {margin-left:75px;}
+.col_produits2 h2 {text-align:center; margin:5px 0 0 0; }
+.col_produits2 li {list-style:none; padding-bottom:3px;}
+.col_produits2 li a {display:block; color:#000; text-align:center; font-size:0.75em; text-decoration:underline;}
+.col_produits2 li a:hover {text-decoration:underline; color:#ffa200;}
+
+.col_produits3 {width:250px; height:220px; position:absolute; left:73%; top:0px; background-color:#FFF; -moz-border-radius:10px; -webkit-border-radius:10px;}
+.col_produits3 img {margin-left:75px;}
+.col_produits3 h2 {text-align:center; margin:5px 0 0 0; }
+.col_produits3 li {list-style:none; padding-bottom:3px;}
+.col_produits3 li a {display:block; color:#000; text-align:center; font-size:0.75em; text-decoration:underline;}
+.col_produits3 li a:hover {text-decoration:underline; color:#ffa200;}
+
+/*--------- Les règles du pied de page */
+#pied {position:relative; width:100%; height:50px; -moz-border-radius:10px; -webkit-border-radius:10px; margin-top:10px; background-color:#FFF; }
+#pied ul {width:80%; margin-left:150px; padding-top:10px; }
+#pied li {text-decoration:none; display:inline; padding-left:10px; padding-right:10px; border-right:solid 1px;}
+#pied a {font-size:0.8em; font-weight:bold; color:#666; text-decoration:none; }
+#pied a:hover {text-decoration:underline;}
+
+/*--------- Les règles pour la div qui contient le contenu du milieu dans les pages non-commercial (FAQ, Contactez-nous, Liens, Partenaires, Qui sommes-nous, Notre emplacement, Page Non fournie) */
+#contenu_milieu {width:100%; min-height:400px; margin-top:0; -moz-border-radius:10px; -webkit-border-radius:10px; position:absolute; left:0px; top:0px;}
+#contenu_milieu_1 {-moz-border-radius:10px; -webkit-border-radius:10px; position:absolute; left:17%; top:0px; background:#FFF;}
+#contenu_milieu_1 p {font-size:0.8em; margin:20px;}
+#contenu_milieu_1 iframe {margin:30px;}
+#contenu_milieu_1 span {color:#000;}
+#contenu_milieu_1 li {font-size:0.8em; list-style:upper-roman; margin-left:50px;}
+
+/*--------- Les règles pour le formulaire de la page Contactez-nous */
+#formulaire {width:650px;}
+.form_input {width:200px; float:left;}
+.form_input label {font-size:0.8em; margin:5px 0 0 20px; }
+#form_input_submit {font-size:0.9em; background-color:#ffa200; color:#FFF; -moz-border-radius:10px; -webkit-border-radius:10px; margin-left:310px; margin-top:10px; margin-bottom:20px;}
+.form_input_right {width:300px; float:left;}
+.form_input_right input {width:100%; margin-bottom:10px;}

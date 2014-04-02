@@ -1,0 +1,239 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin:0 auto;
+    padding:0;
+   }
+   
+body {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:120%;
+	color:#FFF;
+	}
+	
+#principal {
+	width:1024px;
+	height:680px;
+	margin:5px auto;
+    background: #000 url(bg21blackjack_kate2.png) no-repeat center top;
+	/*background-image:url(casino.jpg);*/
+	border:#333 1px solid;
+	}
+
+#colGauche {
+     width:200px;
+	 background-color:#FFF;
+     float:left;                        
+     height:680px;
+     }
+
+img {
+	margin:0;
+	border:0;
+    padding:0;
+	}
+
+.logo21 {
+	width:200px;
+	height:183px;
+	}	 
+	
+#imgGagnePerdu {
+	width:200px;
+	height:183px;
+	}	 	
+	 
+#paneau_joueur {
+	background-color:#48886e;
+	border:solid 3px #630;
+	text-align:center;
+	height:491px;
+	}	 
+		   
+#colDroite {
+     width:200px;
+	 float:right;
+	 background-color:#FFF;
+     height:680px;
+     }
+
+#paneau_croupier {
+	background-color:#48886e;
+	border:solid 3px #630;
+	text-align:center;
+	height:491px; /* era 394px*/
+	}	
+	
+h1 {
+	font-size:0.85em;
+	text-align:center;
+	padding:10px 0 4px 0;
+	}
+	
+h2 {
+	font-size:0.63em;
+	text-align:center;
+	margin:10px 0 10px 0;
+	padding:0 6px 0 6px;
+	}	
+	
+#Des {
+	position:relative;
+	}
+
+
+.alignFloat {
+       width:120px;
+	   margin-left:20px;
+       float:left;
+       }
+
+#desJouer {
+	position:absolute;
+	left:200px;
+	bottom:0px;
+	}
+	
+#desCroupier {
+	position:absolute;
+	left:458px;
+	bottom:0px;
+	}	
+
+#emplacement2 {
+       width:120px;
+	   margin-left:20px;
+       float:left;
+       }
+    
+#emplacement1 {
+       width:120px;
+       float:left;
+       }
+
+#emplacement4 {
+       width:120px;
+	   margin-left:120px;
+       float:left;
+               }
+
+#emplacement3 {
+       width:120px;
+       float:left;
+               }
+				   
+#centrevide {
+		height:680px;
+		width:600px;
+		color:#000;
+		}	
+		
+.buttonImgVert { 
+	width: 73px; 
+	height: 20px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:0.6em;
+	padding-bottom:4px;
+	border: none; 
+	cursor: pointer; 
+	background: url("buttom_vert_noclick.png") no-repeat left top; 
+	margin:5px;
+	}
+	
+.buttonImgJaune { 
+	width: 73px; 
+	height: 20px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:0.6em;
+	padding-bottom:4px;
+	border: none; 
+	cursor: pointer; 
+	background: url("buttom_jaune_noclick.png") no-repeat left top; 
+	margin:5px;
+	}
+	
+.buttonImgRouge { 
+	width: 73px; 
+	height: 20px; 
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:0.6em;
+	padding-bottom:4px;
+	border: none; 
+	cursor: pointer; 
+	background: url("buttom_rouge_noclick.png") no-repeat left top; 
+	margin:5px;
+	}
+
+.buttonImgBleu { 
+	width: 73px; 
+	height: 20px; 
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:0.6em;
+	padding-bottom:4px;
+	border: none; 
+	cursor: pointer; 
+	background: url("buttom_bleu_noclick.png") no-repeat left top; 
+	margin:5px;
+	}
+
+.buttonImgBrun { 
+	width: 73px; 
+	height: 20px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:0.6em;
+	padding-bottom:4px;
+	border: none; 
+	cursor: pointer; 
+	background: url("buttom_brun_click.png") no-repeat left top; 
+	margin:5px;
+	}
+	
+.buttonImgVert:active { 
+	background: url("buttom_vert_click.png") no-repeat left bottom;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:0.6em;
+	padding-top:2px;
+	}
+	
+.buttonImgJaune:active { 
+	background: url("buttom_jaune_click.png") no-repeat left bottom; 
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:0.6em;
+	padding-top:2px;
+	}
+	
+.buttonImgRouge:active { 
+	background: url("buttom_rouge_click.png") no-repeat left bottom; 
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:0.6em;
+	padding-top:2px;
+	}
+	
+.buttonImgBleu:active { 
+	background: url("buttom_bleu_click.png") no-repeat left bottom; 
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:0.6em;
+	padding-top:2px;
+	}
+	
+.buttonImgBrun:active { 
+	background: url("buttom_jaune_click.png") no-repeat left bottom; 
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:0.6em;
+	padding-top:2px;
+	}	
+	
+input[type="text"] {
+	font-family:Verdana, Geneva, sans-serif;
+	font-weight:bold;
+	text-align:center;
+	color:#6F0;
+	background-color:#000;
+	}	
+	
+p {
+	margin-top:100px;
+	font-size:0.5em;
+	text-align:right;
+	}	

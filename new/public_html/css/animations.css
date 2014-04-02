@@ -1,0 +1,142 @@
+/* Helice
+---------------------------------------------------------------- */
+@keyframes turning
+{
+	0%   {
+		transform: rotate(0deg);
+		-ms-transform: rotate(0deg); /* IE 9 */
+		-webkit-transform: rotate(0deg); /* Safari and Chrome */
+		-o-transform: rotate(0deg); /* Opera */
+		-moz-transform: rotate(0deg); /* Firefox */
+	}
+	
+	100%   {
+		transform: rotate(360deg);
+		-ms-transform: rotate(360deg); /* IE 9 */
+		-webkit-transform: rotate(360deg); /* Safari and Chrome */
+		-o-transform: rotate(360eg); /* Opera */
+		-moz-transform: rotate(360deg); /* Firefox */
+	}
+}
+
+@-webkit-keyframes turning
+{
+	0%   {
+		transform: rotate(0deg);
+		-ms-transform: rotate(0deg); /* IE 9 */
+		-webkit-transform: rotate(0deg); /* Safari and Chrome */
+		-o-transform: rotate(0deg); /* Opera */
+		-moz-transform: rotate(0deg); /* Firefox */
+	}
+	
+	100%   {
+		transform: rotate(360deg);
+		-ms-transform: rotate(360deg); /* IE 9 */
+		-webkit-transform: rotate(360deg); /* Safari and Chrome */
+		-o-transform: rotate(360eg); /* Opera */
+		-moz-transform: rotate(360deg); /* Firefox */
+	}
+}
+
+
+
+/* Logos inside window
+--------------------------------------------------- */
+.show-logo {
+	opacity:1;
+	filter:alpha(opacity=1); /* For IE8 and earlier */
+	
+	transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in; /* Firefox 4 */
+	-webkit-transition: all 0.2s ease-in; /* Safari and Chrome */
+	-o-transition: all 0.2s ease-in; /* Opera */
+}
+
+.hide-logo {
+	opacity:0;
+	filter:alpha(opacity=0); /* For IE8 and earlier */
+	
+	transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in; /* Firefox 4 */
+	-webkit-transition: all 0.2s ease-in; /* Safari and Chrome */
+	-o-transition: all 0.2s ease-in; /* Opera */
+}
+
+
+/* Window: open and close
+--------------------------------------------------- */
+.open-left {
+	-webkit-transform-origin: left 50%;
+	-moz-transform-origin: left 50%;
+	-ms-transform-origin: left 50%;
+	-o-transform-origin: left 50%;
+	transform-origin: left 50%;
+	
+	transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in; /* Firefox 4 */
+	-webkit-transition: all 0.2s ease-in; /* Safari and Chrome */
+	-o-transition: all 0.2s ease-in; /* Opera */
+	
+	transform: scale(-1,1);
+	/*-ms-transform: scale(-1,1);  IE 9 */
+	-webkit-transform: scale(-1,1); /* Safari and Chrome */
+	-o-transform: scale(-1,1);/* Opera */
+	-moz-transform: scale(-1,1); /* Firefox */
+}
+
+.close-left {
+	-webkit-transform-origin: left 50%;
+	-moz-transform-origin: left 50%;
+	-ms-transform-origin: left 50%;
+	-o-transform-origin: left 50%;
+	transform-origin: left 50%;
+	
+	transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in; /* Firefox 4 */
+	-webkit-transition: all 0.2s ease-in; /* Safari and Chrome */
+	-o-transition: all 0.2s ease-in; /* Opera */
+	
+	transform: scale(1,1);
+	/*-ms-transform: scale(1,1);  IE 9 */
+	-webkit-transform: scale(1,1); /* Safari and Chrome */
+	-o-transform: scale(1,1);/* Opera */
+	-moz-transform: scale(1,1); /* Firefox */
+}
+
+.open-right {
+	-webkit-transform-origin: right 50%;
+	-moz-transform-origin: right 50%;
+	-ms-transform-origin: right 50%;
+	-o-transform-origin: right 50%;
+	transform-origin: right 50%;
+	
+	transition: all 0.2s ease-in; 
+	-moz-transition: all 0.2s ease-in; /* Firefox 4 */
+	-webkit-transition: all 0.2s ease-in; /* Safari and Chrome */
+	-o-transition: all 0.2s ease-in; /* Opera */
+	
+	transform: scale(-1,1);
+	/*-ms-transform: scale(-1,1);  IE 9 */
+	-webkit-transform: scale(-1,1); /* Safari and Chrome */
+	-o-transform: scale(-1,1);/* Opera */
+	-moz-transform: scale(-1,1); /* Firefox */
+}
+
+.close-right {
+	-webkit-transform-origin: right 50%;
+	-moz-transform-origin: right 50%;
+	-ms-transform-origin: right 50%;
+	-o-transform-origin: right 50%;
+	transform-origin: right 50%;
+	
+	transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in; /* Firefox 4 */
+	-webkit-transition: all 0.2s ease-in; /* Safari and Chrome */
+	-o-transition: all 0.2s ease-in; /* Opera */
+	
+	transform: scale(1,1);
+	/*-ms-transform: scale(1,1);  IE 9 */
+	-webkit-transform: scale(1,1); /* Safari and Chrome */
+	-o-transform: scale(1,1);/* Opera */
+	-moz-transform: scale(1,1); /* Firefox */
+}

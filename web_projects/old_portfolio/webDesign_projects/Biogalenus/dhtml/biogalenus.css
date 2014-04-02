@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Biogalenus Document */
+
+body {margin:0; padding:0; background: url(../img/arabesco_pequeno2.jpg); background-position:bottom; background-attachment:fixed; font-family: Verdana, Geneva, sans-serif; font-size:100%; height:100%}
+h1 {font-size:0.9em; padding-top:10px;}
+p {font-size:0.8em; padding-top:5px; }
+span {font-weight:bold;}
+ul {list-style:circle; font-size:0.8em; margin:10px 20px;}
+li {padding-bottom:5px;}
+
+#mf_principal {margin:0 auto; background: url(../img/central2.jpg); /*filter:alpha(opacity=98); -moz-opacity:0.98; opacity: 0.98;-*/ background-repeat:repeat-y; background-position:center; width:961px;}
+
+#mf_principal_auto {width:961px; height:auto !important; min-height:100%; margin-bottom:-170px; position:relative;}
+
+#mf_header {width:945px; margin:0 10px; height:175px; position:relative; }
+#mf_header img {margin-top:15px;}
+#mf_titulo {position:absolute; top:0; left:249px; text-align:left;}
+#mf_endereco {position:absolute; top:0; right:0; text-align:right; margin-top:5px; margin-right:10px;}
+
+#mf_photos {width:698px; height:90px; position:absolute; left:245px; top:70px; background-image:url(../img/box_photos.png); background-repeat:no-repeat; background-position:center; z-index:100;}
+#mf_seta_esq {margin:25px 10px; float:left; width:21px; height:40px; background:url(../img/seta_esquerda_duas.png) top no-repeat}
+#mf_seta_esq:hover {margin:25px 10px; float:left; width:21px; height:40px; background:url(../img/seta_esquerda_duas.png) bottom no-repeat; cursor:pointer;}
+#mf_seta_dir {margin:25px 10px; float:right; width:21px; height:40px; background:url(../img/seta_direita_duas.png) top no-repeat}
+#mf_seta_dir:hover {margin:25px 10px; float:right; width:21px; height:40px; background:url(../img/seta_direita_duas.png) bottom no-repeat; cursor:pointer;}
+
+#mf_conteudoCentral {width:945px; margin:0 10px; height:auto; position:relative;}
+
+
+#mf_apresentacao_farmacia {width:945px; height:160px; position:relative;/*border:#dbe2c1 1px solid;*/ background:url(../img/glassware_free.png) 710px 0px no-repeat; }
+#mf_apresentacao_farmacia p {padding:10px 0 0 10px;}
+#transparencia {background:url(../img/transparencia2.png) top left repeat; position:absolute; top:25px; }
+
+#mf_menu_horizontal {width:945px; height:55px; /*position:absolute; top:0; left:0;*/ position:relative; }
+#mf_menu_horizontal p {padding:15px 0; font-size:0.7em;}
+
+#menu_1 {width:107px; float:left; cursor:pointer; background:url(../img/aba_quem_somos.png) 0px -58px no-repeat; text-align:center;}
+#menu_2 {width:95px; float:left; cursor:pointer; background:url(../img/aba_orcamento.png) 0px 0px no-repeat; text-align:center;}
+#menu_3 {width:110px; float:left; cursor:pointer; background:url(../img/aba_como_chegar.png) 0px -58px no-repeat; text-align:center;}
+#menu_4 {width:81px; float:left; cursor:pointer; background:url(../img/aba_contato.png) 0px -58px no-repeat; text-align:center;}
+#menu_5 {width:103px; float:left; cursor:pointer; background:url(../img/aba_orientacoes.png) 0px -58px no-repeat; text-align:center;}
+#menu_restante {width:449px; float:left; background:url(../img/aba_restante.png) 0px 0px no-repeat;}
+
+#mf_cadaConteudo {width:943px; height:600px; /*position:absolute; top:45px; left:0;*/ position:relative; top:-13px;}
+#mf_cadaConteudo img {margin:0; padding:0; border:0;}
+#mf_conteudo1 {width:913px; height:570px; margin-left:3px; position:absolute; top:0px; left:0; z-index:1; background-color:#FFF; border:#dbe2c1 1px solid; border-top:0; padding:10px; padding-top:0;}
+#mf_conteudo1 p {font-size:0.8em; padding-top:10px;}
+
+#mf_conteudo2 {width:913px; height:570px; margin-left:3px; position:absolute; top:0px; left:0; z-index:2; background-color:#FFF; border:#dbe2c1 1px solid; border-top:0; padding:10px; padding-top:0;}
+#mf_conteudo2 span {font-size:0.6em; color:#F00; margin:5px 10px 10px 10px; text-align:right; display:block;}
+#mf_conteudo2 img {margin-left:70px;}
+
+#mf_fax {position:absolute; top:55px; left:500px; width:420px;}
+#mf_fax img {margin-left:50px;}
+.faxtelefone {border:#dbe2c1 1px solid; padding:10px;}
+
+#mf_phone {position:absolute; top:255px; left:500px; width:420px;}
+#mf_phone img {margin-left:50px;}
+
+
+#mf_conteudo3 {width:913px; height:570px; margin-left:3px; position:absolute; top:0px; left:0; z-index:1; background-color:#FFF; border:#dbe2c1 1px solid; border-top:0; padding:10px; padding-top:0; text-align:center}
+#mf_conteudo3 p {padding-top:0px; }
+#mf_localizenos {border-bottom:#dbe2c1 1px solid; padding:10px; background:url(../img/localize_farmacia.png) bottom left no-repeat; }
+
+#mf_conteudo4 {width:913px; height:570px; margin-left:3px; position:absolute; top:0px; left:0; z-index:1; background-color:#FFF; border:#dbe2c1 1px solid; border-top:0; padding:10px; padding-top:0;}
+#mf_conteudo4 span {font-size:0.7em; font-weight:normal;}
+
+#mf_conteudo5 {width:913px; height:570px; margin-left:3px; position:absolute; top:0px; left:0; z-index:1; background-color:#FFF; border:#dbe2c1 1px solid; border-top:0; padding:10px; padding-top:0;}
+
+#mf_form {width:440px; border:#dbe2c1 1px solid;}
+#mf_form p {padding:10px;}
+.mf_labels {width:100px;}
+label {font-size:0.7em; padding:5px 0 0 10px; display:block; float:left;}
+input, textarea {margin-top:5px; display:block; position:relative; left:10px;}
+.btnMeio {width:440px; padding-left:180px; margin-bottom:10px;}
+.btnMeio input {background-color:#f2fce8; color:#000; -moz-border-radius:5px; -webkit-border-radius:5px;}
+
+#mf_footer {min-height:170px; width:945px; position:relative; bottom:0; left:0;}
+
+

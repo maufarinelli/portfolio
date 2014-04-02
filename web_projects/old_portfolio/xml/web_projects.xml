@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projects>
+
+	<!-- Projets en français -->
+	<content xml:lang="fr"> 
+		<name>Site web Bug-Tek</name>
+		<thumb>img/bugtek_198x102.png</thumb>
+		<alt_thumb>web design de Bug-Tek</alt_thumb>
+		<img>img/bugtek_693x358.png</img>
+		<h1>Bug-Tek</h1>
+		<languages>
+			<language>HTML et CSS</language>
+			<language>JavaScript et JQuery</language>
+			<language>PHP</language>
+			<language>Photoshop</language>
+		</languages>
+		<paragraphes>
+			<par>Ce site a été développé en partenariat avec RossNetMedia. Pascal Ross et moi, on a créé le design. J'ai développé la page d'accueil et l'interactivité en utilisant JQuery. J'ai aussi intégré le Twitter et Facebook du client dans la session Nouvelles.</par>
+			<par>Enfin, j'ai créé un petit CMS en PHP où le client peut saisir, modifier ou supprimer un représentant des ventes (sur la page Contact).</par>
+		</paragraphes>
+		<lien>http://www.bug-tek.ca</lien>
+		<text_lien>Cliquez pour voir le site web</text_lien>
+	</content>
+	
+	<content xml:lang="fr"> 
+		<name>Site web Myrrha Pharmacie</name>
+		<thumb>img/myrrha198x102.png</thumb>
+		<alt_thumb>web design de Myrrha Pharmacie</alt_thumb>
+		<img>img/myrrha693x358.png</img>
+		<h1>Myrrha Pharmacie</h1>
+		<languages>
+			<language>HTML et CSS</language>
+			<language>JavaScript et JQuery</language>
+			<language>PHP</language>
+			<language>Photoshop</language>
+		</languages>
+		<paragraphes>
+			<par>Sur ce site, j'ai utilisé PHP pour envoyer des prescriptions par courriel électronique.</par>
+			<par>J'ai aussi créé certaines fonctions en utilisant jQuery pour rendre le site plus interactif, intuitif et fonctionnel. </par>
+		</paragraphes>
+		<lien>http://www.myrrhafarma.com.br</lien>
+		<text_lien>Cliquez pour voir le site web</text_lien>
+	  </content>
+	
+  <content xml:lang="fr"> 
+  	<name>Site web Senna</name>
+	<thumb>img/senna_198x102.png</thumb>
+	<alt_thumb>web design de Senna Entretien Ménager</alt_thumb>
+	<img>img/senna_693x358.png</img>
+	<h1>Senna Entretien Ménager</h1>
+	<languages>
+		<language>HTML et CSS</language>
+		<language>Flash</language>
+		<language>JavaScript</language>
+		<language>PHP</language>
+		<language>Photoshop</language>
+	</languages>
+	<paragraphes>
+		<par>Le site web de l'entreprise de nettoyage commercial Senna. Il n'est pas tout à fait prêt. Mon client est en train de finir les textes, mais tout le design, la structure et le code est déjà prêt.</par>
+		<par>L'idée était de faire un site bilingue, un design moderne pour valoriser l'image de l'entreprise et une navigation simple.</par>
+	</paragraphes>
+	<lien>webDesign_projects/Senna/index.html</lien>
+	<text_lien>Cliquez pour voir le site web</text_lien>
+  </content>
+  
+  <content xml:lang="fr"> 
+  	<name>Site web Biogalenus</name>
+	<thumb>img/biogalenus198x102.png</thumb>
+	<alt_thumb>web design de la Pharmacie Biogalenus</alt_thumb>
+	<img>img/biogalenus693x358.png</img>
+	<h1>Pharmacie Biogalenus</h1>
+	<languages>
+		<language>HTML</language>
+		<language>CSS</language>
+		<language>JavaScript</language>
+		<language>Photoshop</language>
+	</languages>
+	<paragraphes>
+		<par>Ceci est le site de la pharmacie Biogalenus.</par>
+		<par>L'idée était de faire un site web où les clients trouvent facilement les informations sur la compagnie, son adresse et téléphone ainsi que de fournir toutes les instructions pour le client envoyer une prescription.</par>
+	</paragraphes>
+	<lien>http://www.biogalenus.com.br</lien>
+	<text_lien>Cliquez pour voir le site web</text_lien>
+  </content>
+  
+  <content xml:lang="fr"> 
+  	<name>Jeu de Blackjack</name>
+	<thumb>img/blackjack_198x102.png</thumb>
+	<alt_thumb>web design du jeu de Blackjack</alt_thumb>
+	<img>img/blackjack_693x358.png</img>
+	<h1>Jeu de Blackjack</h1>
+	<languages>
+		<language>HTML</language>
+		<language>CSS</language>
+		<language>JavaScript</language>
+		<language>Photoshop</language>
+	</languages>
+	<paragraphes>
+		<par>Projet de site Web que j'ai développé au Collège de Maisonneuve au cours Programmation en JavaScript.</par>
+		<par>Jeu de Blackjack joué avec des dés, dont tout le programme a été créé en JavaScript.</par>
+		<par>J'ai écrit tout le code en JavaScript. Il n'y a pas de code copié à partir de bibliothèques disponibles sur Internet.</par>
+	</paragraphes>
+	<lien>webDesign_projects/Blackjack/21blackjack.html</lien>
+	<text_lien>Cliquez pour voir le jeu</text_lien>
+  </content>
+  
+  <content xml:lang="fr"> 
+  	<name>Illustration d'une guitare</name>
+	<thumb>img/My_Guitar_198x102.png</thumb>
+	<alt_thumb>Illustration guitare électrique</alt_thumb>
+	<img>img/My_Guitar_693x358.png</img>
+	<h1>Illustration d'une guitare</h1>
+	<languages>
+		<language>Illustrator</language>
+	</languages>
+	<paragraphes>
+		<par>Il s'agit d'une illustration que j'ai fait en Illustrator, la reproduction de la guitare de la photo.</par>
+		<par>Cela a été un excellent exercice, car j'ai utilisé toutes les techniques que j'avais appris dans ce logiciel en les combinant avec la capacité de la dessiner.</par>
+	</paragraphes>
+	<lien>webDesign_projects/Guitar_Illustr/guitar_illustration.html</lien>
+	<text_lien>Cliquez pour agrandir l'image</text_lien>
+  </content>
+  
+  <content xml:lang="fr"> 
+  	<name>Site web Vision Optique</name>
+	<thumb>img/vision_optique_198x102.png</thumb>
+	<alt_thumb>web design du site Vision Optique</alt_thumb>
+	<img>img/vision_optique_693x358.png</img>
+	<h1>Site web Vision Optique</h1>
+	<languages>
+		<language>HTML</language>
+		<language>CSS</language>
+		<language>Photoshop</language>
+	</languages>
+	<paragraphes>
+		<par>Il s'agit d'un autre travail que j'ai fait au Collège de Maisonneuve, une interface d'un commerce électronique qui vendrait appareils photo.</par>
+		<par>Il n'était pas supposé à être fonctionnel. L'objectif était simplement de créer l'interface.</par>
+	</paragraphes>
+	<lien>webDesign_projects/VisionOptique/index.htm</lien>
+	<text_lien>Cliquez pour voir le site web</text_lien>
+  </content>
+  
+  <content xml:lang="fr"> 
+  	<name>Ce portfolio</name>
+	<thumb>img/portfolio_198x102.png</thumb>
+	<alt_thumb>web dévelopement de mon propre portfolio</alt_thumb>
+	<img>img/portfolio_693x358.png</img>
+	<h1>Ce portfolio</h1>
+	<languages>
+		<language>HTML et CSS</language>
+		<language>Javascript</language>
+		<language>Flash et ActionScript</language>
+		<language>PHP et XML</language>
+		<language>Photoshop et Illustrator</language>
+	</languages>
+	<paragraphes>
+		<par>Il vaut la peine de parler de mon portfolio, parce que j'ai utilisé toutes les langues que je connais.</par>
+		<par>La machine a été animé en Flash et avec une fonction ActionScript, j'appelle une autre fonction JavaScript qui affiche tous mes projets.</par>
+		<par>La langue du site est changé par une fonction PHP et tous mes projets sont stockés dans un fichier XML et chargé par une autre fonction PHP.</par>
+	</paragraphes>
+	<lien></lien>
+	<text_lien></text_lien>
+  </content>
+  
+  <!-- fin des projets en Français -->
+  
+  
+  
+  
+  
+  <!-- Projects in english -->
+  	<content xml:lang="en"> 
+		<name>Website Bug-Tek</name>
+		<thumb>img/bugtek_198x102.png</thumb>
+		<alt_thumb>web design of Bug-Tek</alt_thumb>
+		<img>img/bugtek_693x358.png</img>
+		<h1>Bug-Tek</h1>
+		<languages>
+			<language>HTML and CSS</language>
+			<language>JavaScript and JQuery</language>
+			<language>PHP</language>
+			<language>Photoshop</language>
+		</languages>
+		<paragraphes>
+			<par>This site was created in partnership with RossNetMedia. Pascal Ross and I designed the website. I created the home page and all the interactive features using JQuery, besides integrating Twitter and Facebook's customer into the News session.</par>
+			<par>Finally, I created a small CMS in PHP for customer to enter, edit or delete a sales representative (on the page Contact).</par>
+		</paragraphes>
+		<lien>http://www.bug-tek.ca</lien>
+		<text_lien> >> Click here to see the website</text_lien>
+	</content>
+  
+  	<content xml:lang="en"> 
+		<name>Myrrha Pharmacy Website</name>
+		<thumb>img/myrrha198x102.png</thumb>
+		<alt_thumb>web design of Myrrha Pharmacie</alt_thumb>
+		<img>img/myrrha693x358.png</img>
+		<h1>Myrrha Pharmacy</h1>
+		<languages>
+			<language>HTML and CSS</language>
+			<language>JavaScript and JQuery</language>
+			<language>PHP</language>
+			<language>Photoshop</language>
+		</languages>
+		<paragraphes>
+			<par>On this website, I used PHP to send prescriptions by email.</par>
+			<par>I've also created some functions using jQuery to make the site more interactive, intuitive and functional.</par>
+		</paragraphes>
+		<lien>http://www.myrrhafarma.com.br</lien>
+		<text_lien> >> Click here to see the website</text_lien>
+	  </content>
+  
+	<content xml:lang="en"> 
+  	<name>Senna Website</name>
+	<thumb>img/senna_198x102.png</thumb>
+	<alt_thumb>web design of Senna Cleaning Services</alt_thumb>
+	<img>img/senna_693x358.png</img>
+	<h1>Senna Cleaning Services</h1>
+	<languages>
+		<language>HTML and CSS</language>
+		<language>Flash</language>
+		<language>JavaScript</language>
+		<language>PHP</language>
+		<language>Photoshop</language>
+	</languages>
+	<paragraphes>
+		<par>This is the website of the commercial cleaning company Senna. It's almost ready. My client is finishing the texts to put on the website, but the whole code and design is done.</par>
+		<par>The idea was to make a bilingual website, a modern design to enhance the corporate image and a simple navigation.</par>
+	</paragraphes>
+	<lien>webDesign_projects/Senna/index.html</lien>
+	<text_lien> >> Click here to see the website</text_lien>
+  </content>
+  
+  <content xml:lang="en"> 
+  	<name>Biogalenus Website</name>
+	<thumb>img/biogalenus198x102.png</thumb>
+	<alt_thumb>web design of Biogalenus pharmacy</alt_thumb>
+	<img>img/biogalenus693x358.png</img>
+	<h1>Biogalenus Pharmacy</h1>
+	<languages>
+		<language>HTML</language>
+		<language>CSS</language>
+		<language>JavaScript</language>
+		<language>Photoshop</language>
+	</languages>
+	<paragraphes>
+		<par>This is the website of the compounding pharmacy Biogalenus. </par>
+		<par>The idea was to make a website where the customer easily find the information about the company as well as provide all the instructions for the clients to send their prescription quickly.</par>
+	</paragraphes>
+	<lien>http://www.biogalenus.com.br</lien>
+	<text_lien> >> Click here to see the website</text_lien>
+  </content>
+  
+  <content xml:lang="en"> 
+  	<name>Blackjack Game</name>
+	<thumb>img/blackjack_198x102.png</thumb>
+	<alt_thumb>web design of Blackjack Game</alt_thumb>
+	<img>img/blackjack_693x358.png</img>
+	<h1>Blackjack Game</h1>
+	<languages>
+		<language>HTML</language>
+		<language>CSS</language>
+		<language>JavaScript</language>
+		<language>Photoshop</language>
+	</languages>
+	<paragraphes>
+		<par>Website project I developed at the Collège de Maisonneuve on JavaScript course.</par>
+		<par>Blackjack game played with dice, whose entire game's artificial intelligence is created by the JavaScript.</par>
+		<par>I wrote all the code in Javascript. There is no copied code from libraries available on the web.</par>
+	</paragraphes>
+	<lien>webDesign_projects/Blackjack/21blackjack.html</lien>
+	<text_lien> >> go to Blackjack Game</text_lien>
+  </content>
+  
+  <content xml:lang="en"> 
+  	<name>Electric Guitar Illustration</name>
+	<thumb>img/My_Guitar_198x102.png</thumb>
+	<alt_thumb>My electric guitar illustration</alt_thumb>
+	<img>img/My_Guitar_693x358.png</img>
+	<h1>Electric Guitar Illustration</h1>
+	<languages>
+		<language>Illustrator</language>
+	</languages>
+	<paragraphes>
+		<par>This is an illustration I made reproducing the guitar of the photo.</par>
+		<par>It was a great exercise because I had to use all the techniques I learned in this software combining them with the ability to draw it.</par>
+	</paragraphes>
+	<lien>webDesign_projects/Guitar_Illustr/guitar_illustration.html</lien>
+	<text_lien> >> Click to see a bigger image</text_lien>
+  </content>
+  
+  <content xml:lang="en"> 
+  	<name>Vision Optique Website</name>
+	<thumb>img/vision_optique_198x102.png</thumb>
+	<alt_thumb>web design of Vision Optique</alt_thumb>
+	<img>img/vision_optique_693x358.png</img>
+	<h1>Vision Optique website</h1>
+	<languages>
+		<language>HTML</language>
+		<language>CSS</language>
+		<language>Photoshop</language>
+	</languages>
+	<paragraphes>
+		<par>Another website project I created at the Collège de Maisonneuve, a simple interface of an e-commerce that sells cameras.</par>
+		<par>It was not supposed to be functional. The objective was just to create a design of an interface.</par>
+	</paragraphes>
+	<lien>webDesign_projects/VisionOptique/index.htm</lien>
+	<text_lien> >> Click here to see the website</text_lien>
+  </content>
+  
+  <content xml:lang="en"> 
+  	<name>This portfolio</name>
+	<thumb>img/portfolio_198x102.png</thumb>
+	<alt_thumb>web developpement of my own portfolio</alt_thumb>
+	<img>img/portfolio_693x358.png</img>
+	<h1>This portfolio</h1>
+	<languages>
+		<language>HTML and CSS</language>
+		<language>Javascript</language>
+		<language>Flash and ActionScript</language>
+		<language>PHP and XML</language>
+		<language>Photoshop and Illustrator</language>
+	</languages>
+	<paragraphes>
+		<par>It's worth talking about my portfolio because I used all the languages I know.</par>
+		<par>The machine was animated in Flash and with an ActionScript function, I call another JavaScript function that shows all my projects.</par>
+		<par>The language of the website is changed by a PHP function and all my projects are stored in an XML file and loaded through another PHP function.</par>
+	</paragraphes>
+	<lien></lien>
+	<text_lien></text_lien>
+  </content>
+  
+  <!-- end of English projects -->
+  
+  
+  
+  
+  <!-- inicio dos Projetos em Português -->
+  	<content xml:lang="pt"> 
+		<name>Website Bug-Tek</name>
+		<thumb>img/bugtek_198x102.png</thumb>
+		<alt_thumb>web design da Bug-Tek</alt_thumb>
+		<img>img/bugtek_693x358.png</img>
+		<h1>Bug-Tek</h1>
+		<languages>
+			<language>HTML e CSS</language>
+			<language>JavaScript e JQuery</language>
+			<language>PHP</language>
+			<language>Photoshop</language>
+		</languages>
+		<paragraphes>
+			<par>Site feito em parceria com a RossNetMedia. Eu e Pascal Ross criamos o design. Criei a Home Page e as funcionalidades interativas utilizando JQuery, além de integrar o Twitter e Facebook do cliente na sessão News.</par>
+			<par>Por fim, criei um pequeno CMS em PHP para que o cliente pudesse inserir, editar ou apagar um representante de vendas (na página Contato).</par>
+		</paragraphes>
+		<lien>http://www.bug-tek.ca</lien>
+		<text_lien> >> clique aqui para visitar o site</text_lien>
+	</content>
+	
+  	<content xml:lang="pt"> 
+		<name>Website Myrrha</name>
+		<thumb>img/myrrha198x102.png</thumb>
+		<alt_thumb>web design da Farmácia Myrrha</alt_thumb>
+		<img>img/myrrha693x358.png</img>
+		<h1>Farmácia Myrrha</h1>
+		<languages>
+			<language>HTML e CSS</language>
+			<language>JavaScript e JQuery</language>
+			<language>PHP</language>
+			<language>Photoshop</language>
+		</languages>
+		<paragraphes>
+			<par>Neste site, eu usei o PHP para enviar receitas por e-mail.</par>
+			<par>Eu também criei algumas funções usando jQuery para tornar o site mais interativo, intuitivo e funcional.</par>
+		</paragraphes>
+		<lien>http://www.myrrhafarma.com.br</lien>
+		<text_lien> >> clique aqui para visitar o site</text_lien>
+	  </content>
+  
+	<content xml:lang="pt"> 
+  	<name>Website Senna</name>
+	<thumb>img/senna_198x102.png</thumb>
+	<alt_thumb>web design de Senna Serviços de Limpeza</alt_thumb>
+	<img>img/senna_693x358.png</img>
+	<h1>Senna Limpeza Comercial</h1>
+	<languages>
+		<language>HTML e CSS</language>
+		<language>Flash</language>
+		<language>JavaScript</language>
+		<language>PHP</language>
+		<language>Photoshop</language>
+	</languages>
+	<paragraphes>
+		<par>Este é o site da empresa de limpeza comercial Senna. Ainda não está completamente pronto. Meu cliente está finalizando os textos para colocarmos no site e logo após colocar o site no ar.</par>
+		<par>A idéia era fazer um site bilingue, um design moderno para valorizar a imagem da empresa e uma navegação bem simples.</par>
+	</paragraphes>
+	<lien>webDesign_projects/Senna/index.html</lien>
+	<text_lien> >> clique aqui para visitar o site</text_lien>
+  </content>
+  
+  <content xml:lang="pt"> 
+  	<name>Website Biogalenus</name>
+	<thumb>img/biogalenus198x102.png</thumb>
+	<alt_thumb>web design da farmácia Biogalenus</alt_thumb>
+	<img>img/biogalenus693x358.png</img>
+	<h1>Website Biogalenus</h1>
+	<languages>
+		<language>HTML</language>
+		<language>CSS</language>
+		<language>JavaScript</language>
+		<language>Photoshop</language>
+	</languages>
+	<paragraphes>
+		<par>Este é o site da farmácia de manipulação Biogalenus. </par>
+		<par>A idéia era fazer um site onde o cliente encontrasse facilmente, as informações sobre a empresa, seu endereço e telefone, assim como disponibilizar todas as instruções para o cliente enviar um orçamento rapidamente.</par>
+	</paragraphes>
+	<lien>http://www.biogalenus.com.br</lien>
+	<text_lien> >> clique aqui para visitar o site</text_lien>
+  </content>
+  
+  <content xml:lang="pt"> 
+  	<name>Jogo de Blackjack</name>
+	<thumb>img/blackjack_198x102.png</thumb>
+	<alt_thumb>web design do jogo de Blackjack</alt_thumb>
+	<img>img/blackjack_693x358.png</img>
+	<h1>Jogo de Blackjack</h1>
+	<languages>
+		<language>HTML</language>
+		<language>CSS</language>
+		<language>JavaScript</language>
+		<language>Photoshop</language>
+	</languages>
+	<paragraphes>
+		<par>Projeto que fiz no Collège de Maisonneuve para a matéria Programação em JavaScript.</par>
+		<par>Blackjack jogado com dados, onde toda a inteligência artificial foi criada em JavaScript.</par>
+		<par>Escrevi todo o código em Javascript. Não há nada copiado de bibliotecas de códigos disponíveis na internet.</par>
+	</paragraphes>
+	<lien>webDesign_projects/Blackjack/21blackjack.html</lien>
+	<text_lien> >> clique aqui para ver o jogo</text_lien>
+  </content>
+  
+  <content xml:lang="pt"> 
+  	<name>Ilustração de uma guitarra</name>
+	<thumb>img/My_Guitar_198x102.png</thumb>
+	<alt_thumb>Ilustração de uma guitarra</alt_thumb>
+	<img>img/My_Guitar_693x358.png</img>
+	<h1>Ilustração de uma guitarra</h1>
+	<languages>
+		<language>Illustrator</language>
+	</languages>
+	<paragraphes>
+		<par>Essa é uma ilustração que eu fiz no Illustrator, reproduzindo a guitarra da foto.</par>
+		<par>Foi um ótimo exercício, pois tive que utilizar todas as técnicas que aprendi nesse programa combinando-as com a habilidade para desenhá-la.</par>
+	</paragraphes>
+	<lien>webDesign_projects/Guitar_Illustr/guitar_illustration.html</lien>
+	<text_lien> >> clique para ver a imagem grande</text_lien>
+  </content>
+  
+  <content xml:lang="pt"> 
+  	<name>Website Vision Optique</name>
+	<thumb>img/vision_optique_198x102.png</thumb>
+	<alt_thumb>web design de Vision Optique</alt_thumb>
+	<img>img/vision_optique_693x358.png</img>
+	<h1>Website Vision Optique</h1>
+	<languages>
+		<language>HTML</language>
+		<language>CSS</language>
+		<language>Photoshop</language>
+	</languages>
+	<paragraphes>
+		<par>Outro trabalho que fiz no Collège de Maisonneuve, uma interface de e-commerce de câmeras fotograficas.</par>
+		<par>Não estava prevista fazer um site funcional. O objetivo era somente criar uma interface de um comércio eletrônico.</par>
+	</paragraphes>
+	<lien>webDesign_projects/VisionOptique/index.htm</lien>
+	<text_lien> >> clique aqui para ver o site</text_lien>
+  </content>
+  
+  <content xml:lang="pt"> 
+  	<name>Este portfolio</name>
+	<thumb>img/portfolio_198x102.png</thumb>
+	<alt_thumb>web design do meu próprio portfolio</alt_thumb>
+	<img>img/portfolio_693x358.png</img>
+	<h1>Este próprio portfolio</h1>
+	<languages>
+		<language>HTML e CSS</language>
+		<language>Javascript</language>
+		<language>Flash e ActionScript</language>
+		<language>PHP e XML</language>
+		<language>Photoshop e Illustrator</language>
+	</languages>
+	<paragraphes>
+		<par>Vale a pena comentar meu portfolio, pois utilizei todas as linguagens que conheço.</par>
+		<par>A maquina foi animada em Flash e através de uma função ActionScript, chamo outra função JavaScript que mostra todos os meus projetos.</par>
+		<par>A língua do site é alterada através de um função PHP e todos meus projetos são armazenados num arquivo XML e carregados por intermédio de outra função PHP.</par>
+	</paragraphes>
+	<lien></lien>
+	<text_lien></text_lien>
+  </content>
+  
+  <!-- fim dos projetos em Português -->
+  
+</projects>
