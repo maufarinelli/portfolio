@@ -10,22 +10,50 @@ return $aLang = array (
 	'menu.projects' => 'Web&nbsp;projects',
 	
 	'about.title' => 'About me',
-	'about.copy1' => 'I currently work at the advertising agency Palm + HAVAS in Montréal as Web Integrator and Developer, working in many projects as websites, new pages, Facebook applications and newsletters for two of our largest clients, VIA Rail and Volkswagen.',
-	'about.copy2' => 'In late 2012, we were awarded with the website volkswagenplus.ca in Boomerang awards, honoring the best advertising and interactive websites for companies of Quebec. It was a great project for the Volkswagen CRM that I was front-end developer and I also helped in some back-end development.<br>To see the website, <a href="http://www.volkswagenplus.ca" target="_blank">click here</a>.<br>To see the award winning page, <a href="http://resultats.infopresse.com/prixboomerang/2012/Resultats/sites_internet/sites_B2C_grande_entreprise/volks_palm.html" target="_blank">click here</a>.',
-	'about.copy3' => 'I\'ve also developed many of promotional pages for viarail.ca, as made and always update the Facebook Promotionals application of VIA Rail.',
-	'about.copy4' => 'However, you will find in this portfolio only my projects I\'ve done as a freelancer.',
-	'about.copy5' => 'I am a BA in Marketing & Advertising and I have a AEC called "Development of Website and Electronic Commerce" at the renowned Collège de Maisonneuve. Before start to develop web applications, I\'ve worked many years as a marketing professional and I\'ve reached the position of Marketing Coordinator at Walmart e-commerce, where I have acquired a vast knowledge in SEO (search engine optimization), web marketing campaigns, e-mail marketing and adwords.',
+
+	'about.copy1' => 'I am currently a Front-end developer at Evolio/Xprima, that develops auto123.com and creates a framework and an online marketing solutions for dealers of new, used and recreational vehicles, with more than a 1000 clients across Canada.',
+	'about.copy2' => 'Following some of websites I\'ve developed with our framework: <a href="http://www.boulevardtoyota.com/">boulevardtoyota.com</a>, <a href="http://www.mercedesbenzdurham.com/">mercedesbenzdurham.com</a>, <a href="http://www.spinellihonda.com/">spinellihonda.com</a>, <a href="http://www.hamelbmw.com/">hamelbmw.com</a>, <a href="http://www.hyundai-montreal.com/">hyundai-montreal.com</a> and much more.',
+
+	'about.copy3' => 'Until March 2013, I worked in the advertising agency Palm+Havas in Montréal as Web Developer and Integrator, developing many projects as websites, Facebook applications and newsletters for two of our largest clients, VIA Rail and Volkswagen.',
+	'about.copy4' => 'In late 2012, we were awarded with the website volkswagenplus.ca in Boomerang awards, honoring the best advertising and interactive websites for companies of Quebec. It was a great project for the Volkswagen CRM that I was front-end developer and I also helped in some back-end development.<br>To see the website, <a href="http://www.volkswagenplus.ca" target="_blank">click here</a>.<br>To see the award winning page, <a href="http://resultats.infopresse.com/prixboomerang/2012/Resultats/sites_internet/sites_B2C_grande_entreprise/volks_palm.html" target="_blank">click here</a>.',
+	'about.copy5' => 'I\'ve also participated of new palmhavas.ca website develoment, and I developed many of promotional pages for viarail.ca, as made and always update the Facebook Promotionals application of VIA Rail.',
 	
-	'projects.title' => 'Web projects',
+	'about.copy6' => 'I am a BA in Marketing & Advertising and I have a AEC called "Development of Website and Electronic Commerce" at the renowned Collège de Maisonneuve. Before start to develop web applications, I\'ve worked many years as a marketing professional and I\'ve reached the position of Marketing Coordinator at Walmart e-commerce, where I have acquired a vast knowledge in SEO (search engine optimization), web marketing campaigns, e-mail marketing and adwords.',
+	
+	'projects.title' => 'Web projects as freelancer',
 	'projects.developed.copy' => 'Developed in:',
 	'projects.website.cta' => 'Go to the website',
+
+	'projects.companies.title' => 'Web projects as employee',
 	
+	// Xprima / Evolio
+	'projects.xprima.title' => 'for Xprima/Evolio', 
+	'projects.xprima.technologies'  => '<li>HTML5 and CSS3</li><li>JavaScript with JQuery and Backbone</li><li>Django (Python Web framework)</li>',
+    'projects.xprima.copy1' => 'Those are some of the websites we have developed using our framework VO at Xprima/Evolio:',
+    'projects.xprima.copy2' => '<a href="http://www.boulevardtoyota.com/">boulevardtoyota.com</a>',
+    'projects.xprima.copy3' => '<a href="http://www.mercedesbenzdurham.com/">mercedesbenzdurham.com</a>',
+    'projects.xprima.copy4' => '<a href="http://www.spinellihonda.com/">spinellihonda.com</a>',
+    'projects.xprima.copy5' => '<a href="http://www.hamelbmw.com/">hamelbmw.com</a>',
+    'projects.xprima.copy6' => '<a href="http://www.hyundai-montreal.com/">hyundai-montreal.com</a>',
+    'projects.xprima.copy7' => '<a href="http://www.montmorencyford.com/">montmorencyford.com</a>',
+    'projects.xprima.copy8' => '<a href="http://www.hondaway.com/">hondaway.com</a>',
+    'projects.xprima.copy9' => '<a href="http://www.boulevardfiat.com/">boulevardfiat.com</a>',
+    'projects.xprima.copy10' => '<a href="http://www.lessardhyundai.net/">lessardhyundai.net</a>',
+
+
+   	//Palm+Havas
+	'projects.palm.title' => 'Palm+Havas',
+	'projects.palm.technologies'  => '<li>HTML5 and CSS</li><li>JavaScript and JQuery</li><li>PHP using Kohana Framework</li><li>Photoshop to edit images.</li>',
+    'projects.palm.copy1' => 'Those are some of the websites I\'ve developed with my team at the time I was working at Palm+Havas:',
+    'projects.palm.copy2' => '<a href="http://www.volkswagenplus.ca" target="_blank">Volkswagenplus.ca</a>, awarded in Boomerang awards. To see the award winning page, <a href="http://resultats.infopresse.com/prixboomerang/2012/Resultats/sites_internet/sites_B2C_grande_entreprise/volks_palm.html" target="_blank">click here</a>',
+    'projects.palm.copy3' => '<a href="http://www.palmhavas.ca" target="_blank">palmhavas.ca</a>, the new website of the agency.',
+
 	
 	//Bugtek
 	'projects.bugtek.title' => 'Bug-Tek',
 	'projects.bugtek.technologies'  => '<li>HTML and CSS</li><li>JavaScript and JQuery</li><li>PHP</li><li>Photoshop to create and edit images.</li>',
-     'projects.bugtek.copy1' => 'This site was created in partnership with RossNetMedia. Pascal Ross and I designed the website. I created the home page and all the interactive features using JQuery, besides integrating Twitter and Facebook\'s customer into the News session.',
-     'projects.bugtek.copy2' => 'Finally, I created a small CMS in PHP for customer to enter, edit or delete a sales representative (on the page Contact).',
+    'projects.bugtek.copy1' => 'This site was created in partnership with RossNetMedia. Pascal Ross and I designed the website. I created the home page and all the interactive features using JQuery, besides integrating Twitter and Facebook\'s customer into the News session.',
+    'projects.bugtek.copy2' => 'Finally, I created a small CMS in PHP for customer to enter, edit or delete a sales representative (on the page Contact).',
 	 
 	 
 	 //Aquatek

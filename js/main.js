@@ -42,7 +42,6 @@ var projectsHeight = function(){
 		$('.row_'+i).height(tallest);
 		tallest = 0;
 	}
-	
 }
 
 
@@ -50,12 +49,14 @@ $(document).ready(function(){
 				
 	projectsHeight();
 	var iOffsetAbout = $('#about-us').offset().top;
-	var iOffsetProjects = $('#web-projects').offset().top;
+	var iOffsetProjectsFreela = $('#web-projects-freelancer').offset().top;
+	var iOffsetProjectsEmployee = $('#web-projects-employee').offset().top;
 
 	$(window).resize(function(){
 		projectsHeight();
 		iOffsetAbout = $('#about-us').offset().top;
-		iOffsetProjects = $('#web-projects h2').offset().top;
+		iOffsetProjectsFreela = $('#web-projects-freelancer h2').offset().top;
+		iOffsetProjectsEmployee = $('#web-projects-employee h2').offset().top;
 	});
 	
 	
@@ -147,7 +148,10 @@ $(document).ready(function(){
 		$('html, body').animate({ scrollTop: iOffsetAbout }, 500);
 	});
 	$('.menu-projects').click(function(){
-		$('html, body').animate({ scrollTop: iOffsetProjects }, 500);
+		$('html, body').animate({ scrollTop: iOffsetProjectsEmployee }, 500);
+	});
+	$('.menu-projects').click(function(){
+		$('html, body').animate({ scrollTop: iOffsetProjectsFreela }, 500);
 	});
 	
 	

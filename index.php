@@ -59,13 +59,55 @@
                 <h2><?php echo $aLang['about.title']; ?></h2>
                 <p><?php echo $aLang['about.copy1']; ?></p>
                 <p><?php echo $aLang['about.copy2']; ?></p>
+                <hr />
                 <p><?php echo $aLang['about.copy3']; ?></p>
                 <p><?php echo $aLang['about.copy4']; ?></p>
                 <p><?php echo $aLang['about.copy5']; ?></p>
+                <hr />
+                <p><?php echo $aLang['about.copy6']; ?></p>
+            </div>
+        </section>
+
+        <section id="web-projects-employee">
+            <h2><?php echo $aLang['projects.companies.title']; ?></h2>
+
+            <div class="web-projects-wrapper clearfix">
+                <!-- Projects at Xprima/Evolio -->
+                <div class="">
+                    <h3><?php echo $aLang['projects.xprima.title']; ?></h3>
+                    <p><?php echo $aLang['projects.developed.copy']; ?></p>
+                    <ul>
+                        <?php echo $aLang['projects.xprima.technologies']; ?>
+                    </ul>
+                    <p><?php echo $aLang['projects.xprima.copy1']; ?></p>
+                    <ul>
+                        <li><?php echo $aLang['projects.xprima.copy2']; ?></li>
+                        <li><?php echo $aLang['projects.xprima.copy3']; ?></li>
+                        <li><?php echo $aLang['projects.xprima.copy4']; ?></li>
+                        <li><?php echo $aLang['projects.xprima.copy5']; ?></li>
+                        <li><?php echo $aLang['projects.xprima.copy6']; ?></li>
+                        <li><?php echo $aLang['projects.xprima.copy7']; ?></li>
+                        <li><?php echo $aLang['projects.xprima.copy8']; ?></li>
+                        <li><?php echo $aLang['projects.xprima.copy9']; ?></li>
+                        <li><?php echo $aLang['projects.xprima.copy10']; ?></li>
+                    </u>
+                </div>
+
+                <!-- Projects at Palm+Havas -->
+                <div class="">
+                    <h3><?php echo $aLang['projects.bugtek.title']; ?></h3>
+                    <p><?php echo $aLang['projects.developed.copy']; ?></p>
+                    <ul>
+                        <?php echo $aLang['projects.palm.technologies']; ?>
+                    </ul>
+                    <p><?php echo $aLang['projects.palm.copy1']; ?></p>
+                    <p><?php echo $aLang['projects.palm.copy2']; ?></p>
+                    <p><?php echo $aLang['projects.palm.copy3']; ?></p>
+                </div>
             </div>
         </section>
         
-        <section id="web-projects">
+        <section id="web-projects-freelancer">
         	<h2><?php echo $aLang['projects.title']; ?></h2>
         	
             <div class="web-projects-wrapper clearfix">
@@ -197,16 +239,8 @@
                         <p><?php echo $aLang['projects.portfolio.copy3']; ?></p>
                         <a class="cta" href="web_projects/old_portfolio/" target="_blank"><?php echo $aLang['projects.website.cta']; ?></a>
                 </div>
-                
             </div>
-            
-            
-        </section>
-        
-        <footer>
-        
-        </footer>
-        
+        </section>        
 
         <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>-->
         <script src="js/vendor/jquery-1.8.3.min.js"></script>
