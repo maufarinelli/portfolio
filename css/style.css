@@ -12,7 +12,7 @@ body {
 }
 
 p {
-	/* font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; */
+	margin: 1em 0;
 	font-family: 'Lato', sans-serif;
 	font-weight:300;
 	font-size:1.2em;
@@ -48,12 +48,12 @@ hr {
 header {
 	position:relative;
 	height:650px;
-	
+
 	color:#4e0500;
 	text-align:center;
-	
+
 	overflow:hidden;
-	
+
 	background: #ffa00d; /* Old browsers */
 	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
 	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmYTAwZCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQzJSIgc3RvcC1jb2xvcj0iI2ZmYzkzNSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
@@ -101,13 +101,13 @@ header li a:hover {
 
 header ul.language {
 	position:absolute;
-	top:-10px;
-	right:20px;
+	top: 5px;
+	right: 20px;
 }
 
 header li {
-	float:left;
-	margin-left:20px;
+	float: left;
+	margin-left: 20px;
 }
 
 header #sun {
@@ -115,12 +115,12 @@ header #sun {
 	top: 310px;
 	left: 50%;
 	margin-left: -110px;
-	
+
 	width: 404px;
 	height: 404px;
-	
+
 	background: url(../images/sol.png) bottom center no-repeat;
-	
+
 	z-index: 1;
 }
 
@@ -128,12 +128,12 @@ header #background {
 	position:absolute;
 	top:325px;
 	left:0;
-	
+
 	width: 100%;
 	height: 325px;
-	
+
 	background:url(../images/bg_header.png) bottom center no-repeat;
-	
+
 	z-index:2;
 }
 
@@ -141,24 +141,23 @@ header #forefront {
 	position:absolute;
 	bottom:0;
 	left:0;
-	
+
 	width: 100%;
 	height: 325px;
-	
+
 	background:url(../images/fore_header.png) bottom center no-repeat;
-	
+
 	z-index:3;
 }
-
 
 header #helice {
 	position: absolute;
 	top: 225px;
 	left: 50%;
 	margin-left:53px;
-	
+
 	z-index:4;
-	
+
 	/* animation */
 	animation: turning 25s linear infinite;
 	-moz-animation: turning 25s linear infinite; /* Firefox */
@@ -188,7 +187,7 @@ header #helice {
 #web-projects-employee,
 #web-projects-freelancer {
 	padding-bottom: 30px;
-	
+
 	background: #4e0500;
 	color: #ffc935;
 }
@@ -198,12 +197,13 @@ header #helice {
 	margin: 0 auto;
 }
 
-.ie8 .web-projects-wrapper, 
+.ie8 .web-projects-wrapper,
 .ie7 .web-projects-wrapper {
 	width: 980px;
 }
 
-/* web projects employee */
+/* web projects employee
+--------------------------------------------------- */
 #web-projects-employee .project {
 	display: inline-block;
 	vertical-align: top;
@@ -214,18 +214,18 @@ header #helice {
 #web-projects-employee .project-window {
 	position: relative;
 	float: left;
-	
+
 	width: 215px;
 	height: 280px;
 	margin: 0 50px 0 50px;
-	
+
 	background: url(../images/window.png) center top no-repeat;
 }
 
 #web-projects-employee .project-info {
 	float: left;
 	width: 650px;
-	margin-bottom: 30px;
+	margin-bottom: 50px;
 }
 
 #web-projects-employee .window-left {
@@ -257,15 +257,16 @@ header #helice {
 	color: #ffc935;
 }
 
-/* web projects freelancer */
+/* web projects freelancer
+--------------------------------------------------- */
 #web-projects-freelancer .project {
 	position: relative;
 	display: inline-block;
 	vertical-align: top;
-	
+
 	width: 215px;
 	margin: 0 50px 50px;
-	
+
 	background: url(../images/window.png) center top no-repeat;
 }
 
@@ -286,16 +287,19 @@ header #helice {
 	list-style: disc;
 }
 
+
+/*Fo web projects in general
+--------------------------------------------------- */
 .web-projects-wrapper .project a.cta {
 	display: inline-block;
 	margin-left: 20px;
 	padding: 5px 10px;
-	
+
 	font-family: 'Unkempt', cursive, Verdana;
 	font-size: 1.2em;
 	color: #4e0500;
 	text-decoration: none;
-	
+
 	background: #ffc935;
 	border-radius: 7px;
 }
@@ -326,7 +330,10 @@ header #helice {
 	left: 50px;
 }
 
-.logo.evolio {	top: 150px; }
+
+/* web projects logos
+--------------------------------------------------- */
+.logo.evolio {	top: 162px; }
 .logo.palmhavas {	top: 163px; }
 .logo.bugtek {	top: 150px; }
 .logo.senna {	top: 148px; }
@@ -338,20 +345,21 @@ header #helice {
 .logo.old-portfolio {	top: 125px; }
 
 
-@media screen 
+/* Media queries */
+@media screen
 and (max-width: 767px) {
 	header h1 {
 		font-size: 2.6em;
 		padding-top: 30px;
 		margin: 0 10px 25px;
 	}
-	
+
 	header nav span {
 		font-size:2.2em;
 		margin: 0 3%;
 	}
 
-	.web-projects-wrapper, 
+	.web-projects-wrapper,
 	.row {
 		width: 95%;
 		margin: 0 20px;
@@ -387,22 +395,29 @@ and (max-width: 767px) {
 	}
 }
 
-@media screen 
+@media screen
 and (min-width: 768px)
 and (max-width: 979px) {
-	.web-projects-wrapper, 
+	.web-projects-wrapper,
 	.row {
 		width: 768px;
+	}
+
+	#web-projects-employee .project-window {
+		margin: 0 50px 50px 80px;
 	}
 
 	#web-projects-employee .project-info {
 		width: 310px;
 	}
 
+	#web-projects-freelancer .project {
+		margin: 0 80px 50px;
+	}
 
 }
 
-@media screen 
+@media screen
 and (min-width: 980px)
 and (max-width: 1295px) {
 	#web-projects-employee .project-info h3 {
@@ -411,7 +426,7 @@ and (max-width: 1295px) {
 	}
 }
 
-@media screen 
+@media screen
 and (min-width: 1296px) {
 	.web-projects-wrapper {
 		width: 1296px;
@@ -431,79 +446,8 @@ and (min-width: 1296px) {
 }
 
 
-
-/*
-@media screen 
-and (max-width: 320px) {
-	.web-projects-wrapper {
-		width: 320px;
-	}
-	
-	.row {
-		width: 300px;
-	}
-	
-	header h1 {
-		font-size: 2.2em;
-		padding-top: 50px;
-		margin: 0 5px 25px;
-	}
-	
-	header nav span {
-		font-size:2.2em;
-		margin: 0 5% 40px;
-	}
-	
-	header li a {
-		font-size: 1.8em;
-	}
-	
-}
-
-@media screen
-and (min-width: 321px)
-and (max-width: 655px) {
-	header h1 {
-		font-size: 2.6em;
-		padding-top: 30px;
-		margin: 0 10px 25px;
-	}
-	
-	header nav span {
-		font-size:2.2em;
-		margin: 0 3%;
-	}
-	
-	.web-projects-wrapper {
-		width: 340px;
-	}
-	
-	.row {
-		width: 94%;
-	}
-}
-
-@media screen 
-and (min-width: 656px)
-and (max-width: 975px) {
-	header h1 {
-		font-size:3em;
-	}
-	
-	header nav span {
-		font-size:2.5em;
-	}
-	
-	.web-projects-wrapper {
-		width: 656px;
-	}
-	
-	.row {
-		width: 94%;
-	}
-}
-
-@media screen and 
+/* For tablets and cellphones */
+@media screen and
 (max-device-width: 1024px)  {
 	.web-projects-wrapper .project .mobile-symbol {
 		display:block;
@@ -513,20 +457,5 @@ and (max-width: 975px) {
 		margin-left:-53px;
 		z-index:10;
 		opacity:1;
-	}	
-}
-
-@media screen 
-and (min-width: 976px)
-and (max-width: 1295px) {
-	.web-projects-wrapper {
-		width: 976px;
 	}
 }
-
-@media screen 
-and (min-width: 1296px) {
-	.web-projects-wrapper {
-		width: 1296px;
-	}
-}*/
