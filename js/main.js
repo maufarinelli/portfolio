@@ -1,61 +1,10 @@
-/* To Calculate the height of projects row
-------------------------------------------------------------------------- */
-var projectsHeight = function(){
-	var $width = $(window).width(); 
-	var iProjectsWidth = 320; /* width of each portfolio */
-	var iHowMany = Math.floor($width / iProjectsWidth); /* How many projects fix on the screen */
-	if(iHowMany > 4) iHowMany = 4; /* I decided maximum 4 projects for row on the media query */ 
-	
-	var iHowManyProjects = $('.web-projects-wrapper').children().size(); /* How many projects the portfolio has */
-	
-	/* if resize, remove all rows classes before adding it again */
-	for(var i = 0; i <= iHowManyProjects; i ++)
-	{
-		$('.project').removeClass('row_'+i);
-		$('.project').height('auto');
-	}
-	
-	var a = 1; /* To the rows */
-	var i = 1;
-	$('.web-projects-wrapper').children().each(function() {
-		
-		$(this).addClass('row_'+a); /* Adding row class */
-		
-		if(i == iHowMany)
-		{
-			i=1;
-			a++;
-		}
-		else 
-			i++;
-	});
-	
-	var tallest = 0;
-	for(var i = 1; i <= a; i++)
-	{
-		$('.row_'+i).each(function() {
-			var iHeight = $(this).height();
-			
-			if(iHeight > tallest)
-				tallest = iHeight;
-		});
-		$('.row_'+i).height(tallest);
-		tallest = 0;
-	}
-}
-
-
 $(document).ready(function(){
 				
-	projectsHeight();
 	var iOffsetAbout = $('#about-us').offset().top;
-	var iOffsetProjectsFreela = $('#web-projects-freelancer').offset().top;
 	var iOffsetProjectsEmployee = $('#web-projects-employee').offset().top;
 
 	$(window).resize(function(){
-		projectsHeight();
 		iOffsetAbout = $('#about-us').offset().top;
-		iOffsetProjectsFreela = $('#web-projects-freelancer h2').offset().top;
 		iOffsetProjectsEmployee = $('#web-projects-employee h2').offset().top;
 	});
 	
@@ -120,7 +69,7 @@ $(document).ready(function(){
 	{
 		/* For windows' animations with CSS3 (Chrome, FF, Safari, Opera)
 		--------------------------------------------------------- */
-		$('.project').hover(function(){	
+		$('.project, .project-window').hover(function(){	
 			$(this).children('.logo').addClass('show-logo');
 			$(this).children('.logo').removeClass('hide-logo');
 			
@@ -142,16 +91,12 @@ $(document).ready(function(){
 		});
 	}
 		
-		
 	
 	$('.menu-about').click(function(){
 		$('html, body').animate({ scrollTop: iOffsetAbout }, 500);
 	});
 	$('.menu-projects').click(function(){
 		$('html, body').animate({ scrollTop: iOffsetProjectsEmployee }, 500);
-	});
-	$('.menu-projects').click(function(){
-		$('html, body').animate({ scrollTop: iOffsetProjectsFreela }, 500);
 	});
 	
 	

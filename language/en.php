@@ -22,6 +22,7 @@ return $aLang = array (
 	
 	'projects.title' => 'Web projects as freelancer',
 	'projects.developed.copy' => 'Developed in:',
+	'projects.worked.copy' => 'Worked with :',
 	'projects.website.cta' => 'Go to the website',
 
 	'projects.companies.title' => 'Web projects as employee',
@@ -30,23 +31,23 @@ return $aLang = array (
 	'projects.xprima.title' => 'for Xprima/Evolio', 
 	'projects.xprima.technologies'  => '<li>HTML5 and CSS3</li><li>JavaScript with JQuery and Backbone</li><li>Django (Python Web framework)</li>',
     'projects.xprima.copy1' => 'Those are some of the websites we have developed using our framework VO at Xprima/Evolio:',
-    'projects.xprima.copy2' => '<a href="http://www.boulevardtoyota.com/">boulevardtoyota.com</a>',
-    'projects.xprima.copy3' => '<a href="http://www.mercedesbenzdurham.com/">mercedesbenzdurham.com</a>',
-    'projects.xprima.copy4' => '<a href="http://www.spinellihonda.com/">spinellihonda.com</a>',
-    'projects.xprima.copy5' => '<a href="http://www.hamelbmw.com/">hamelbmw.com</a>',
-    'projects.xprima.copy6' => '<a href="http://www.hyundai-montreal.com/">hyundai-montreal.com</a>',
-    'projects.xprima.copy7' => '<a href="http://www.montmorencyford.com/">montmorencyford.com</a>',
-    'projects.xprima.copy8' => '<a href="http://www.hondaway.com/">hondaway.com</a>',
-    'projects.xprima.copy9' => '<a href="http://www.boulevardfiat.com/">boulevardfiat.com</a>',
-    'projects.xprima.copy10' => '<a href="http://www.lessardhyundai.net/">lessardhyundai.net</a>',
+    'projects.xprima.copy2' => '<a target="_blank" href="http://www.boulevardtoyota.com/">boulevardtoyota.com</a>',
+    'projects.xprima.copy3' => '<a target="_blank" href="http://www.mercedesbenzdurham.com/">mercedesbenzdurham.com</a>',
+    'projects.xprima.copy4' => '<a target="_blank" href="http://www.spinellihonda.com/">spinellihonda.com</a>',
+    'projects.xprima.copy5' => '<a target="_blank" href="http://www.hamelbmw.com/">hamelbmw.com</a>',
+    'projects.xprima.copy6' => '<a target="_blank" href="http://www.hyundai-montreal.com/">hyundai-montreal.com</a>',
+    'projects.xprima.copy7' => '<a target="_blank" href="http://www.montmorencyford.com/">montmorencyford.com</a>',
+    'projects.xprima.copy8' => '<a target="_blank" href="http://www.hondaway.com/">hondaway.com</a>',
+    'projects.xprima.copy9' => '<a target="_blank" href="http://www.boulevardfiat.com/">boulevardfiat.com</a>',
+    'projects.xprima.copy10' => '<a target="_blank" href="http://www.lessardhyundai.net/">lessardhyundai.net</a>',
 
 
    	//Palm+Havas
-	'projects.palm.title' => 'Palm+Havas',
+	'projects.palm.title' => 'for Palm+Havas',
 	'projects.palm.technologies'  => '<li>HTML5 and CSS</li><li>JavaScript and JQuery</li><li>PHP using Kohana Framework</li><li>Photoshop to edit images.</li>',
     'projects.palm.copy1' => 'Those are some of the websites I\'ve developed with my team at the time I was working at Palm+Havas:',
     'projects.palm.copy2' => '<a href="http://www.volkswagenplus.ca" target="_blank">Volkswagenplus.ca</a>, awarded in Boomerang awards. To see the award winning page, <a href="http://resultats.infopresse.com/prixboomerang/2012/Resultats/sites_internet/sites_B2C_grande_entreprise/volks_palm.html" target="_blank">click here</a>',
-    'projects.palm.copy3' => '<a href="http://www.palmhavas.ca" target="_blank">palmhavas.ca</a>, the new website of the agency.',
+    'projects.palm.copy3' => '<a href="http://www.palmhavas.ca" target="_blank">Palmhavas.ca</a>, the new website of the agency.',
 
 	
 	//Bugtek

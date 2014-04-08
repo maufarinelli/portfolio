@@ -194,39 +194,95 @@ header #helice {
 }
 
 .web-projects-wrapper {
+	width: 980px;
 	margin: 0 auto;
 }
 
 .ie8 .web-projects-wrapper, 
 .ie7 .web-projects-wrapper {
-	width: 960px;
+	width: 980px;
 }
 
-.web-projects-wrapper .project {
+/* web projects employee */
+#web-projects-employee .project {
+	display: inline-block;
+	vertical-align: top;
+	width: 980px;
+	margin-right: 8px;
+}
+
+#web-projects-employee .project-window {
 	position: relative;
-	float:left;
+	float: left;
+	
+	width: 215px;
+	height: 280px;
+	margin: 0 50px 0 50px;
+	
+	background: url(../images/window.png) center top no-repeat;
+}
+
+#web-projects-employee .project-info {
+	float: left;
+	width: 650px;
+	margin-bottom: 30px;
+}
+
+#web-projects-employee .window-left {
+	position: absolute;
+	top: 74px;
+	left: 26px;
+}
+
+#web-projects-employee .window-right {
+	position: absolute;
+	top: 74px;
+	right: 26px;
+}
+
+#web-projects-employee .logo {
+	position: absolute;
+	left: 50px;
+}
+
+#web-projects-employee .project ul {
+	margin-left: 18px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 1.2em;
+	list-style: disc;
+}
+
+#web-projects-employee a {
+	color: #ffc935;
+}
+
+/* web projects freelancer */
+#web-projects-freelancer .project {
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
 	
 	width: 215px;
 	margin: 0 50px 50px;
 	
 	background: url(../images/window.png) center top no-repeat;
-	
 }
 
-.web-projects-wrapper .project h3 {
+#web-projects-freelancer .project h3 {
 	padding-top: 300px;
 }
 
-.web-projects-wrapper .project p {
-	font-size:1em;
+#web-projects-freelancer  .project p {
+	font-size: 1em;
 	margin-left: 20px;
 }
 
-.web-projects-wrapper .project ul {
+#web-projects-freelancer .project ul {
 	margin-left: 18px;
 	font-family: 'Lato', sans-serif;
-	font-weight:300;
-	font-size:1em;
+	font-weight: 300;
+	font-size: 1em;
 	list-style: disc;
 }
 
@@ -270,6 +326,8 @@ header #helice {
 	left: 50px;
 }
 
+.logo.evolio {	top: 150px; }
+.logo.palmhavas {	top: 163px; }
 .logo.bugtek {	top: 150px; }
 .logo.senna {	top: 148px; }
 .logo.aquatek {	top: 158px; }
@@ -280,7 +338,101 @@ header #helice {
 .logo.old-portfolio {	top: 125px; }
 
 
+@media screen 
+and (max-width: 767px) {
+	header h1 {
+		font-size: 2.6em;
+		padding-top: 30px;
+		margin: 0 10px 25px;
+	}
+	
+	header nav span {
+		font-size:2.2em;
+		margin: 0 3%;
+	}
 
+	.web-projects-wrapper, 
+	.row {
+		width: 95%;
+		margin: 0 20px;
+		box-sizing: border-box;
+	}
+
+	#web-projects-employee .project {
+		width: 215px;
+		margin: 0 50px 50px;
+	}
+
+	#web-projects-employee .project-window {
+		margin-left: 0;
+		margin-bottom: 20px;
+	}
+
+	#web-projects-employee .project-info {
+		float: none;
+		width: 215px;
+	}
+
+	#web-projects-employee  .project p {
+		font-size: 1em;
+		margin-left: 20px;
+	}
+
+	#web-projects-employee .project ul {
+		margin-left: 18px;
+		font-family: 'Lato', sans-serif;
+		font-weight: 300;
+		font-size: 1em;
+		list-style: disc;
+	}
+}
+
+@media screen 
+and (min-width: 768px)
+and (max-width: 979px) {
+	.web-projects-wrapper, 
+	.row {
+		width: 768px;
+	}
+
+	#web-projects-employee .project-info {
+		width: 310px;
+	}
+
+
+}
+
+@media screen 
+and (min-width: 980px)
+and (max-width: 1295px) {
+	#web-projects-employee .project-info h3 {
+		margin-left: 20px;
+		text-align: left;
+	}
+}
+
+@media screen 
+and (min-width: 1296px) {
+	.web-projects-wrapper {
+		width: 1296px;
+	}
+
+	#web-projects-employee .project {
+		width: 630px;
+	}
+
+	#web-projects-employee .project-window {
+		margin: 0 20px 0 50px;
+	}
+
+	#web-projects-employee .project-info {
+		width: 340px;
+	}
+}
+
+
+
+/*
 @media screen 
 and (max-width: 320px) {
 	.web-projects-wrapper {
@@ -377,4 +529,4 @@ and (min-width: 1296px) {
 	.web-projects-wrapper {
 		width: 1296px;
 	}
-}
+}*/

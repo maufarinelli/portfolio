@@ -73,36 +73,54 @@
 
             <div class="web-projects-wrapper clearfix">
                 <!-- Projects at Xprima/Evolio -->
-                <div class="">
-                    <h3><?php echo $aLang['projects.xprima.title']; ?></h3>
-                    <p><?php echo $aLang['projects.developed.copy']; ?></p>
-                    <ul>
-                        <?php echo $aLang['projects.xprima.technologies']; ?>
-                    </ul>
-                    <p><?php echo $aLang['projects.xprima.copy1']; ?></p>
-                    <ul>
-                        <li><?php echo $aLang['projects.xprima.copy2']; ?></li>
-                        <li><?php echo $aLang['projects.xprima.copy3']; ?></li>
-                        <li><?php echo $aLang['projects.xprima.copy4']; ?></li>
-                        <li><?php echo $aLang['projects.xprima.copy5']; ?></li>
-                        <li><?php echo $aLang['projects.xprima.copy6']; ?></li>
-                        <li><?php echo $aLang['projects.xprima.copy7']; ?></li>
-                        <li><?php echo $aLang['projects.xprima.copy8']; ?></li>
-                        <li><?php echo $aLang['projects.xprima.copy9']; ?></li>
-                        <li><?php echo $aLang['projects.xprima.copy10']; ?></li>
-                    </u>
+                <div class="project">
+                    <div class="project-window">
+                        <img class="mobile-symbol" src="images/open_with_hand.png" width="106" height="146">
+                        <img class="window-left" src="images/window_left.png" width="85" height="196">
+                        <img class="window-right" src="images/window_right.png" width="80" height="196">
+                        <img class="logo hide-logo evolio" src="images/logos/evolio.jpg">
+                    </div>
+
+                    <div class="project-info">
+                        <h3><?php echo $aLang['projects.xprima.title']; ?></h3>
+                        <p><?php echo $aLang['projects.worked.copy']; ?></p>
+                        <ul>
+                            <?php echo $aLang['projects.xprima.technologies']; ?>
+                        </ul>
+                        <p><?php echo $aLang['projects.xprima.copy1']; ?></p>
+                        <ul>
+                            <li><?php echo $aLang['projects.xprima.copy2']; ?></li>
+                            <li><?php echo $aLang['projects.xprima.copy3']; ?></li>
+                            <li><?php echo $aLang['projects.xprima.copy4']; ?></li>
+                            <li><?php echo $aLang['projects.xprima.copy5']; ?></li>
+                            <li><?php echo $aLang['projects.xprima.copy6']; ?></li>
+                            <li><?php echo $aLang['projects.xprima.copy7']; ?></li>
+                            <li><?php echo $aLang['projects.xprima.copy8']; ?></li>
+                            <li><?php echo $aLang['projects.xprima.copy9']; ?></li>
+                            <li><?php echo $aLang['projects.xprima.copy10']; ?></li>
+                        </u>
+                    </div>
                 </div>
 
                 <!-- Projects at Palm+Havas -->
-                <div class="">
-                    <h3><?php echo $aLang['projects.bugtek.title']; ?></h3>
-                    <p><?php echo $aLang['projects.developed.copy']; ?></p>
-                    <ul>
-                        <?php echo $aLang['projects.palm.technologies']; ?>
-                    </ul>
-                    <p><?php echo $aLang['projects.palm.copy1']; ?></p>
-                    <p><?php echo $aLang['projects.palm.copy2']; ?></p>
-                    <p><?php echo $aLang['projects.palm.copy3']; ?></p>
+                <div class="project">
+                    <div class="project-window">
+                        <img class="mobile-symbol" src="images/open_with_hand.png" width="106" height="146">
+                        <img class="window-left" src="images/window_left.png" width="85" height="196">
+                        <img class="window-right" src="images/window_right.png" width="80" height="196">
+                        <img class="logo hide-logo palmhavas" src="images/logos/palmhavas.jpg">
+                    </div>
+
+                    <div class="project-info">
+                        <h3><?php echo $aLang['projects.palm.title']; ?></h3>
+                        <p><?php echo $aLang['projects.worked.copy']; ?></p>
+                        <ul>
+                            <?php echo $aLang['projects.palm.technologies']; ?>
+                        </ul>
+                        <p><?php echo $aLang['projects.palm.copy1']; ?></p>
+                        <p><?php echo $aLang['projects.palm.copy2']; ?></p>
+                        <p><?php echo $aLang['projects.palm.copy3']; ?></p>
+                    </div>
                 </div>
             </div>
         </section>
